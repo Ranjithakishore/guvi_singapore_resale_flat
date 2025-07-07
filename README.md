@@ -1,0 +1,1 @@
+# guvi_singapore_resale_flat
