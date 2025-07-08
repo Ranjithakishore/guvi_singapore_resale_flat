@@ -1,9 +1,7 @@
-setuptools
-wheel
-streamlit==1.25.0
-streamlit-option-menu==0.3.12
-matplotlib==3.7.1
-numpy==1.23.5
-pandas==1.5.3
-scikit-learn==1.2.2
-seaborn==0.12.2
+streamlit
+streamlit-option-menu
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn

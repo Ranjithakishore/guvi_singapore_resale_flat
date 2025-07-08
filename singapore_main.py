@@ -63,7 +63,7 @@ class option:
 
 if selected == "Home":
     st.markdown('<h1 style="text-align: center; color: #002b36;">Singapore Resale Flat Price Prediction</h1>', unsafe_allow_html=True)
-    st.image(r"assets/header_image.webp", use_column_width=True)
+    st.image(r"assets/header_image.webp", use_container_width=True)
     st.subheader(':blue[About SG-HDB]')
     st.markdown('''Singapore's public housing authority, responsible for planning, developing, and managing quality homes and vibrant towns. Established in 1960 to address a housing crisis, HDB quickly replaced slums with modern flats—building 21,000 homes in under three years and 54,000 by 1965. Today, HDB has completed over 1 million flats in 24 towns and 3 estates, providing homes for about 80% of Singapore’s residents, with a high home ownership rate. For over 50 years, HDB has delivered affordable, quality housing and continues to shape Singapore’s living environment.''',unsafe_allow_html=True)
     st.subheader(':blue[About the Project]')
