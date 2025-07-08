@@ -102,11 +102,10 @@ if selected == "Get Prediction":
                 storey_end=st.number_input(label='Storey end',min_value=1,max_value=51)
 
             st.markdown('<br>', unsafe_allow_html=True)
-            button=st.form_submit_button('PREDICT',use_container_width=True)
+        button=st.form_submit_button('PREDICT',use_container_width=True)
 
     if button:
         with st.spinner("Predicting..."):
-
             # check if all required fields are filled
             if not all([user_month,user_town,user_flat_type,user_flat_model,floor_area_sqm,price_per_sqm,year,block,
                         lease_commence_date,remaining_lease,years_holding,storey_start,storey_end]):
