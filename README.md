@@ -27,9 +27,10 @@ This project predicts the resale price of HDB flats in Singapore using machine l
 .
 ├── singapore_main.py           # Streamlit app source code
 ├── pre_processing.ipynb        # Data cleaning, feature engineering, and modeling notebook
-├── Decisiontree.pkl            # Trained Decision Tree model
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
+└── model/
+    ├── Decisiontree.pkl        # Trained Decision Tree model
 └── data/
     ├── Resale Flat Prices (Based on Approval Date), 1990 - 1999.csv
     ├── Resale Flat Prices (Based on Approval Date), 2000 - Feb 2012.csv
