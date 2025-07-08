@@ -81,10 +81,10 @@ if selected == "Get Prediction":
         col1,col2=st.columns(2)
         
         with col1:
-            user_month=st.selectbox(label='Month',options=option.option_months,index=None)
-            user_town=st.selectbox(label='Town',options=option.option_town,index=None)
-            user_flat_type=st.selectbox(label='Flat Type',options=option.option_flat_type,index=None)
-            user_flat_model=st.selectbox(label='Flat Model',options=option.option_flat_model,index=None)
+            user_month=st.selectbox(label='Month',options=option.option_months)
+            user_town=st.selectbox(label='Town',options=option.option_town)
+            user_flat_type=st.selectbox(label='Flat Type',options=option.option_flat_type)
+            user_flat_model=st.selectbox(label='Flat Model',options=option.option_flat_model)
             floor_area_sqm=st.number_input(label='Floor area sqm',min_value=10.0)
             price_per_sqm=st.number_input(label='Price Per sqm',min_value=100.00)
 
